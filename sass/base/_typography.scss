@@ -12,6 +12,7 @@ p, li, a {
   @include font-type($primary-font, normal, normal);
   color: $black;
   font-size: 14px;
+  padding: $spacer-xs 0;
 }
 
 h1 {
@@ -44,7 +45,10 @@ p {
 }
 
 a {
-  text-decoration: none;
+  text: {
+    decoration: none;
+    transform: uppercase;
+  }
 
   &:hover {
     color: $green;

@@ -13,9 +13,7 @@
     margin: $spacer-lg $reset-0;
 
     &--index {
-      p {
-        padding-bottom: $spacer-m;
-      }
+
     }
   }
 }
@@ -44,6 +42,17 @@
   }
 }
 
-.footer {
+.type-list {
 
+
+  &__item {
+
+    &--p {
+      padding: $spacer-xlg 0;
+    }
+  }
+}
+
+.footer {
+  background-color: $white;
 }

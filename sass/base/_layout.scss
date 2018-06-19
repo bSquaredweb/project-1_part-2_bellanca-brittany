@@ -3,7 +3,7 @@
 // ========================================
 
 .header {
-
+  background-color: $white;
 }
 
 .main {
@@ -13,13 +13,35 @@
     margin: $spacer-lg $reset-0;
 
     &--index {
-
+      p {
+        padding-bottom: $spacer-m;
+      }
     }
   }
 }
 
 .item-container {
-    margin: $spacer-m $reset-0;
+  margin: $spacer-m $reset-0;
+
+}
+
+.color-list {
+  display: flex;
+  width: 100%;
+  margin-bottom: $spacer-xlg;
+
+  &__item {
+    padding: $spacer-xs;
+    margin-right: $spacer-s;
+    text-align: center;
+    background-color: $gray;
+
+    &__square {
+      width: 100px;
+      height: 100px;
+      margin-bottom: $spacer-xs;
+    }
+  }
 }
 
 .footer {

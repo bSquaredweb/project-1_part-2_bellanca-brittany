@@ -3,7 +3,28 @@
 // ========================================
 
 .header {
-  background-color: $white;
+  background-color: $green;
+  display: flex; //makes header flexbox
+  justify-content: space-between; //pushes logo & nav to calendars
+  padding: $spacer-s; //provides space around header
+  align-items: center;
+
+  &__logo {
+    height: 100%;
+  }
+
+  &__nav {
+    width: 500px;
+
+  }
+
+  &__list {
+
+
+    &__item {
+      display: inline-flex;
+    }
+  }
 }
 
 .main {

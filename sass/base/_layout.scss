@@ -2,27 +2,57 @@
 // This is where your layout of the project will go
 // ========================================
 
+body {
+  background-color: $white;
+}
+
 .header {
-  background-color: $green;
-  display: flex; //makes header flexbox
-  justify-content: space-between; //pushes logo & nav to calendars
-  padding: $spacer-s; //provides space around header
+  min-width: 320px;
+  padding-bottom: $spacer-m;
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-width: 320px;
 
   &__logo {
-    height: 100%;
+    padding: $spacer-m 0 $spacer-lg 0;
+    max-width: 300px;
   }
 
   &__nav {
-    width: 500px;
-
+    width: 100%;
+    max-width: 400px;
   }
 
   &__list {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
     &__item {
-      display: inline-flex;
+      padding: 0 $spacer-xs;
+
+      &--active {
+        border-bottom: 2px solid $green;
+      }
+    }
+  }
+
+  @include media($medium) {
+    flex-direction: row;
+    padding-bottom: $reset-0;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+      padding: $spacer-m 0 $spacer-m $spacer-s;
+    }
+
+    &__nav {
+      width: 40%;
+      max-width: none;
+
     }
   }
 }
@@ -48,6 +78,7 @@
   display: flex;
   width: 100%;
   margin-bottom: $spacer-xlg;
+  flex-direction: column;
 
   &__item {
     padding: $spacer-xs;
@@ -56,24 +87,24 @@
     background-color: $gray;
 
     &__square {
-      width: 100px;
+      width: 100%;
       height: 100px;
       margin-bottom: $spacer-xs;
     }
   }
-}
 
-.type-list {
+  @include media($medium) {
+    flex-direction: row;
 
+    &__item {
 
-  &__item {
-
-    &--p {
-      padding: $spacer-xlg 0;
+      &__square {
+        width: 200px;
+      }
     }
   }
 }
 
 .footer {
-  background-color: $white;
+  height: 50px;
 }

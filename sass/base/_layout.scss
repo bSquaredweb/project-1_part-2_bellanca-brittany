@@ -16,8 +16,8 @@ body {
   min-width: 320px;
 
   &__logo {
-    padding: $spacer-m 0 $spacer-lg 0;
-    max-width: 300px;
+    padding: $spacer-lg 0 $spacer-lg 0;
+    max-width: 200px;
   }
 
   &__nav {
@@ -31,10 +31,10 @@ body {
     justify-content: space-around;
 
     &__item {
-      padding: 0 $spacer-xs;
+      padding: 0 $spacer-xs 2px $spacer-xs;
 
       &--active {
-        border-bottom: 2px solid $green;
+        border-bottom: 2px solid $brown;
       }
     }
   }

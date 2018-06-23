@@ -111,6 +111,18 @@ body {
   }
 }
 
+.form {
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &--row {
+    flex-direction: row;
+  }
+}
+
 .footer {
   height: 50px;
   min-width: 320px;

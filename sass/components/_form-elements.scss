@@ -2,9 +2,22 @@
 // ========================================
 
 // Label Styling -- Delete this if you are not using a label
-
+label {
+  @include font-type($primary-font, normal, 600);
+}
 
 // Basic Form Input Styling
-
+input {
+  // background-color: $gray;
+  @include font-type($primary-font, normal, normal);
+  border-radius: 0px;
+  padding: $spacer-s;
+  margin-bottom: $spacer-m;
+}
 
 // Select Form Input Styling
+select {
+  @include font-type($primary-font, normal, normal);
+  border-radius: 0px;
+  padding: $spacer-s;
+}

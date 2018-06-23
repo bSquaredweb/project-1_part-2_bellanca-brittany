@@ -64,7 +64,6 @@ body {
 
 .item-container {
   margin: $spacer-m $reset-0;
-
 }
 
 .color-list {
@@ -91,10 +90,22 @@ body {
   @include media($medium) {
     flex-direction: row;
 
+    .item-container {
+      width: 100%;
+    }
+  }
+
+  @include media($large) {
+    flex-direction: row;
+
+    .item-container {
+      // max-width: 400px;
+    }
+
     &__item {
 
       &__square {
-        width: 200px;
+        height: 200px;
       }
     }
   }

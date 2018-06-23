@@ -29,14 +29,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-    &__item {
-      padding: 0 $spacer-xs 2px $spacer-xs;
-
-      &--active {
-        border-bottom: 2px solid $brown;
-      }
-    }
   }
 
   @include media($medium) {

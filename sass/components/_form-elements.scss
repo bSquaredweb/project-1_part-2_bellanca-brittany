@@ -10,13 +10,13 @@ label {
 
 // Basic Form Input Styling
 input {
-  // background-color: $gray;
   @include font-type($primary-font, normal, normal);
   font-size: 16px;
+  color: $black;
   border: 2px solid $gray;
   border-radius: 5px;
   width: 100%;
-  padding: $spacer-s; //text inside field
+  padding: $spacer-s;
 }
 
 // Select Form Input Styling
@@ -27,8 +27,4 @@ select {
   border: 2px solid $gray;
   border-radius: 5px;
   height: 30px;
-}
-
-:focus {
-  outline-color: $green;
 }

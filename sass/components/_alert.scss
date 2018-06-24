@@ -9,7 +9,7 @@
   }
 
   &--success {
-    @include alert(lighten($brightgreen, 30%), darken($brightgreen, 10%), $brightgreen);
+    @include alert(lighten($brightgreen, 30%), darken($brightgreen, 15%), $brightgreen);
   }
 
   &--notification {

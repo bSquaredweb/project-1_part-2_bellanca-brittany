@@ -54,7 +54,7 @@ body {
   min-width: 290px;
 
   &__section {
-    margin: $spacer-lg $reset-0;
+    margin: 0 $reset-0 $spacer-xxl;
 
     &--index {
 
@@ -69,7 +69,7 @@ body {
 .color-list {
   display: flex;
   width: 100%;
-  margin-bottom: $spacer-xlg;
+  // margin-bottom: $spacer-xlg;
   flex-direction: column;
 
   &__item {

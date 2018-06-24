@@ -8,7 +8,7 @@
   background-color: $blue;
   padding: $spacer-s;
   width: 205px;
-  border-radius: 10px;
+  border-radius: 5px;
 
   &__avatar {
     width: 50px;
@@ -31,5 +31,4 @@
   &__text-description {
     font-weight: 400;
   }
-
 }

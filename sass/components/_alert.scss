@@ -2,16 +2,17 @@
 // ========================================
 
 .alert {
+  @include font-type($primary-font, normal, 600);
 
   &--error {
-    
+    @include alert(lighten($red, 30%), darken($red, 5%), $red);
   }
 
   &--success {
-
+    @include alert(lighten($brightgreen, 30%), darken($brightgreen, 10%), $brightgreen);
   }
 
   &--notification {
-
+    @include alert(lighten($blue, 55%), $blue, $blue);
   }
 }

@@ -10,14 +10,16 @@ label {
 input {
   // background-color: $gray;
   @include font-type($primary-font, normal, normal);
-  border-radius: 0px;
-  padding: $spacer-s;
-  margin-bottom: $spacer-m;
+  border: 2px solid $gray;
+  border-radius: 5px;
+  padding: $spacer-s; //text inside field
+  margin-bottom: $spacer-m; //gives space at bottom of field
 }
 
 // Select Form Input Styling
 select {
   @include font-type($primary-font, normal, normal);
-  border-radius: 0px;
-  padding: $spacer-s;
+  border: 2px solid $gray;
+  border-radius: 5px;
+  margin-bottom: $spacer-m;
 }

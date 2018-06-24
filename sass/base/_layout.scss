@@ -2,10 +2,6 @@
 // This is where your layout of the project will go
 // ========================================
 
-body {
-  background-color: $white;
-}
-
 :focus {
   outline-color: $green;
 }
@@ -13,6 +9,15 @@ body {
 ::selection {
   color: $white;
   background-color: $green;
+}
+
+body {
+  background-color: $white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
 }
 
 .header {
@@ -49,13 +54,12 @@ body {
 
     &__logo {
       padding: $spacer-m 0 0 $spacer-m;
-      max-width: 150px;
+      max-width: 175px;
     }
 
     &__nav {
       width: 50%;
-      max-width: none;
-
+      max-width: 430px;
     }
   }
 }
@@ -128,12 +132,6 @@ body {
   }
 }
 
-.alert {
-  @include media($medium) {
-    width: 60%;
-  }
-}
-
 .form {
 
   &__wrapper {
@@ -163,7 +161,11 @@ body {
     width: 100%;
 
     @include media($medium) {
-      width: 55%;
+      width: 60%;
+    }
+
+    @include media($large) {
+      width: 40%;
     }
 
     &--row {

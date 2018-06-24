@@ -56,4 +56,14 @@ a {
     transition: .3s;
     border-bottom: 2px solid $brown;
   }
+
+  &.alt {
+    color: $white;
+    border-bottom: none;
+
+    &:hover {
+      color: $brown;
+      border-bottom: none;
+    }
+  }
 }

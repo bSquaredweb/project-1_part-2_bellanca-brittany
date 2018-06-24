@@ -69,8 +69,8 @@ body {
 .color-list {
   display: flex;
   width: 100%;
-  // margin-bottom: $spacer-xlg;
   flex-direction: column;
+  margin-bottom: $spacer-xlg;
 
   &__item {
     padding: $spacer-s;
@@ -108,6 +108,14 @@ body {
         height: 200px;
       }
     }
+  }
+}
+
+.type-list {
+  margin-bottom: $spacer-xlg;
+
+  &__item {
+    padding-left: $spacer-s;
   }
 }
 

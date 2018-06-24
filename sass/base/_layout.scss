@@ -105,15 +105,18 @@ body {
 
     .item-container {
       width: 100%;
+      max-width: 400px;
+    }
+
+    &__item {
+
+      &__square{
+        height: 150px;
+      }
     }
   }
 
   @include media($large) {
-    flex-direction: row;
-
-    .item-container {
-      // max-width: 400px;
-    }
 
     &__item {
 

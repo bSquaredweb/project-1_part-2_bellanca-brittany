@@ -1,22 +1,19 @@
 # Project 1 - Part 2
 
-Remove all contents from here down when you submit your project.
+## Links
 
----
+- [Link to GitHub Repository](https://github.com/bSquaredweb/project-1_part-2_bellanca-brittany)
 
-1. Clone this repository
-2. Remove the existing .git folder (`rm -rf .git` in your terminal)
-3. Create a new Git repo in your project (`git init`)
-4. Update your .EditorConfig file with (at least) the following properties:
- * indent_style
- * insert_final_newline
- * trim_trailing_whitespace
-5. Add all existing files to the repo with a commit message of “initial commit”.
-6. Create a Repository on Github called `project-1_part-2_lastname-firstname`
-7. Push your existing repository from the command line
-8. Follow the directions for Project 1 - Part 2.
+- [Link to project on web hosting](#)
 
----
+## Resources
 
-To get Sass running:
-Use `sass --watch sass:css --style compressed` on your command line
+- [CSS-Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): I referenced this article for help with Flexbox styling.
+
+## Comments
+
+- Even though I think I ended up doing a pretty good job on this project, I felt like the combination of using Sass and Flexbox was a bit overwhelming. For examples, I'm still not 100% sure that I put the proper styles in the right places.
+
+- I think having separate, smaller assignments on each of these things before this large project would be helpful; students would be able to learn and use each thing before having to combine them in such a large way.
+
+- Looking back, the starter file was absolutely necessary. I would not have been able to put something together that used appropriate mixins and maps. However, I definitely could not recreate the mixins and maps like you did. I think a lesson (from you or on Lynda or some other site) would be helpful here.

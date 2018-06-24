@@ -34,9 +34,6 @@ h6 {
 p, li {
   @include font-type($primary-font, normal, normal);
   font-size: 16px;
-}
-
-p {
   color: $black;
   padding: $spacer-xs 0;
 }

@@ -8,12 +8,12 @@ body {
 
 .header {
   min-width: 320px;
-  padding-bottom: $spacer-m;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
   min-width: 320px;
+  padding-bottom: $spacer-m;
 
   &__logo {
     padding: $spacer-lg 0 $spacer-lg 0;
@@ -56,8 +56,8 @@ body {
   &__section {
     margin: 0 $reset-0 $spacer-xxl;
 
-    &--index {
-
+    &--components, &--elements {
+      margin: $spacer-lg 0 0;
     }
   }
 }

@@ -4,22 +4,31 @@
 // Label Styling -- Delete this if you are not using a label
 label {
   @include font-type($primary-font, normal, 600);
+  font-size: 12px;
+  padding-left: 12px;
 }
 
 // Basic Form Input Styling
 input {
   // background-color: $gray;
   @include font-type($primary-font, normal, normal);
+  font-size: 16px;
   border: 2px solid $gray;
   border-radius: 5px;
+  width: 100%;
   padding: $spacer-s; //text inside field
-  margin-bottom: $spacer-m; //gives space at bottom of field
 }
 
 // Select Form Input Styling
 select {
   @include font-type($primary-font, normal, normal);
+  color: $black;
+  font-size: 16px;
   border: 2px solid $gray;
   border-radius: 5px;
-  margin-bottom: $spacer-m;
+  height: 30px;
+}
+
+:focus {
+  outline-color: $green;
 }

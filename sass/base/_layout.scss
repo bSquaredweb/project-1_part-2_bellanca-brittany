@@ -119,13 +119,34 @@ body {
 
 .form {
 
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: $spacer-lg;
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: $spacer-s;
+
+    i {
+      width: 50px;
+      color: $blue;
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+
   &__field {
     display: flex;
     flex-direction: column;
-  }
 
-  &--row {
-    flex-direction: row;
+    &--row {
+      flex-direction: row;
+    }
   }
 }
 

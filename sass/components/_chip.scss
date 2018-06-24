@@ -5,6 +5,10 @@
   @include font-type($primary-font, normal, 600);
   display: flex;
   align-items: center;
+  background-color: $blue;
+  padding: $spacer-s;
+  width: 205px;
+  border-radius: 10px;
 
   &__avatar {
     width: 50px;
@@ -21,9 +25,11 @@
   &__text-container {
     display: inline-flex;
     flex-direction: column;
+    color: $white;
   }
 
   &__text-description {
     font-weight: 400;
   }
+
 }

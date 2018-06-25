@@ -11,7 +11,7 @@
   background-color: $green;
 }
 
-body {
+.body {
   background-color: $white;
 }
 
@@ -150,7 +150,7 @@ body {
     align-items: flex-end;
     margin-right: $spacer-s;
 
-    i {
+    .fas {
       color: $blue;
       font-size: 40px;
       text-align: center;

@@ -71,8 +71,8 @@
   &__section {
     margin: 0 $reset-0 $spacer-xxl;
 
-    &--components, &--elements {
-      margin: $spacer-lg 0 0;
+    &--elements, &--components {
+      margin-top: $spacer-lg;
     }
   }
 }
@@ -84,7 +84,7 @@
 .color-list {
   display: flex;
   flex-direction: column;
-  margin-bottom: $spacer-xlg;
+  margin: $spacer-m 0 $spacer-xlg;
 
   &__item {
     padding: $spacer-s;
@@ -101,9 +101,9 @@
   @include media($medium) {
     flex-direction: row;
 
-    .item-container {
+    &__item {
       width: 100%;
-      max-width: 400px;
+      max-width: 350px;
     }
 
     &__square {
@@ -120,10 +120,10 @@
 }
 
 .type-list {
-  margin-bottom: $spacer-xlg;
+  margin: $spacer-m 0 $spacer-xlg;
 
   &__item {
-    padding-left: $spacer-m;
+    padding: $spacer-m;
   }
 }
 

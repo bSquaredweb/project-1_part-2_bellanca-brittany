@@ -64,6 +64,18 @@ select {
       width: 40%;
     }
 
+    &--error {
+      color: $red;
+
+      input {
+        border: 2px solid $red;
+      }
+
+      :focus {
+        outline-color: $red;
+      }
+    }
+
     &--row {
       flex-direction: row;
     }

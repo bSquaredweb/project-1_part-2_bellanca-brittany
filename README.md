@@ -12,6 +12,8 @@
 
 ## Comments
 
+- As I saw my elements on the web, I decided to make a few changes; I believe my earlier work was not up to my expectations.
+
 - Even though I think I ended up doing a pretty good job on this project, I felt like the combination of using Sass and Flexbox (each for the first time) was a bit overwhelming. For examples, I'm still not 100% sure that I put the proper styles in the right places.
 
 - I think having separate, smaller assignments on each of these things before this large project would be helpful; students would be able to learn and use each thing before having to combine them in such a large way.

@@ -27,3 +27,45 @@ select {
   border-radius: 5px;
   height: 30px;
 }
+
+.form {
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: $spacer-lg;
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: $spacer-s;
+
+    .fas {
+      color: $blue;
+      font-size: 40px;
+      text-align: center;
+      width: 40px; // keeps input fields aligned
+    }
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @include media($medium) {
+      width: 60%;
+    }
+
+    @include media($large) {
+      width: 40%;
+    }
+
+    &--row {
+      flex-direction: row;
+    }
+  }
+}

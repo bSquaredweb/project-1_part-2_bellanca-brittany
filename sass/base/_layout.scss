@@ -85,15 +85,20 @@
   margin: $spacer-m $reset-0;
 
   &--elements {
-    padding-top: $spacer-m;
     margin: $spacer-m;
+  }
+
+  @include media($medium) {
+    &--elements {
+      padding-top: $spacer-m;
+    }
   }
 }
 
 .color-list {
   display: flex;
   flex-direction: column;
-  margin: $spacer-m 0 $spacer-xlg;
+  margin: $spacer-m $reset-0 $spacer-xlg;
 
   &__item {
     padding: $spacer-s;
@@ -134,7 +139,7 @@
 }
 
 .type-list {
-  margin: $spacer-m 0 $spacer-xlg;
+  margin: $spacer-m $reset-0 $spacer-xlg;
 
   &__item {
     padding: $spacer-m;

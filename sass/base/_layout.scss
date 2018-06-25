@@ -83,6 +83,11 @@
 
 .item-container {
   margin: $spacer-m $reset-0;
+
+  &--elements {
+    padding-top: $spacer-m;
+    margin: $spacer-m;
+  }
 }
 
 .color-list {
